@@ -15,8 +15,8 @@ This project evaluates seasonal vegetation dynamics in Changunarayan Municipalit
 - Calculate monthly NDVI values for the year 2025.
 - Generate seasonal NDVI composites.
 - Compare vegetation conditions among Winter, Pre-monsoon, Monsoon, and Post-monsoon seasons.
-- Produce publication-quality maps and graphical visualizations.
-- Demonstrate a reproducible remote sensing workflow using Google Earth Engine, ArcGIS Pro, and Python.
+- Visualize seasonal vegetation dynamics using maps and statistical charts.
+- Develop an integrated workflow for satellite image processing, GIS mapping, and data visualization using Google Earth Engine, ArcGIS Pro, and Python.
 
 ---
 

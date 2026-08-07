@@ -82,11 +82,6 @@ Repository Structure
 Changunarayan-NDVI-Analysis/
 │
 ├── Changunarayan_boundary/
-│   ├── Changunarayan.cpg
-│   ├── Changunarayan.dbf
-│   ├── Changunarayan.prj
-│   ├── Changunarayan.shp
-│   └── Changunarayan.shx
 │
 ├── Data/
 │   └── Changunarayan_NDVI_2025_Final.csv
@@ -103,8 +98,8 @@ Changunarayan-NDVI-Analysis/
 │   └── PostMonsoon_NDVI_2025.png.png
 │
 ├── Scripts/
-│   ├── Changunarayan_NDVI_Analysis.ipynb
-│   └── EarthEngine_NDVI_Analysis.js
+│   ├── EarthEngine_NDVI_Analysis.js
+│   └── Changunarayan_NDVI_Analysis.ipynb
 │
 └── README.md
 Skills Demonstrated

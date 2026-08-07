@@ -16,9 +16,10 @@ Study Area
 Location: Changunarayan Municipality, Bhaktapur District, Nepal
 
 Data Source
-Sentinel-2 Surface Reflectance Harmonized (COPERNICUS/S2_SR_HARMONIZED)
-Spatial resolution: 10 m
-Study period: January–December 2025
+Satellite: Sentinel-2
+Dataset: Sentinel-2 Surface Reflectance Harmonized (COPERNICUS/S2_SR_HARMONIZED)
+Spatial Resolution: 10 m
+Study Period: January–December 2025
 Software and Tools
 Google Earth Engine
 ArcGIS Pro
@@ -47,28 +48,64 @@ Post-monsoon	0.5293
 Mean NDVI was highest during the monsoon season (0.6242) and lowest during winter (0.4436), showing seasonal variation in vegetation conditions across the study area.
 
 Project Outputs
-Monthly NDVI results
-Seasonal NDVI maps
-Monthly NDVI trend visualization
-Seasonal NDVI comparison chart
-Exported seasonal NDVI raster data
+Monthly NDVI Trend
+
+
+
+
+Seasonal NDVI Comparison
+
+
+
+
+Winter NDVI (2025)
+
+
+
+
+Pre-monsoon NDVI (2025)
+
+
+
+
+Monsoon NDVI (2025)
+
+
+
+
+Post-monsoon NDVI (2025)
+
+
+
+
 Repository Structure
 Changunarayan-NDVI-Analysis/
 │
 ├── Changunarayan_boundary/
+│   ├── Changunarayan.cpg
+│   ├── Changunarayan.dbf
+│   ├── Changunarayan.prj
+│   ├── Changunarayan.shp
+│   └── Changunarayan.shx
+│
 ├── Data/
 │   └── Changunarayan_NDVI_2025_Final.csv
+│
 ├── Figures/
-│   ├── Monthly_NDVI_Trend.png
-│   └── Seasonal_NDVI_Comparison.png
+│   ├── Monthly_NDVI_Trend.png.png
+│   └── Seasonal_NDVI_Comparison.png.png
+│
 ├── Maps/
-│   ├── Winter_NDVI_2025.png
-│   ├── PreMonsoon_NDVI_2025.png
-│   ├── Monsoon_NDVI_2025.png
-│   └── PostMonsoon_NDVI_2025.png
+│   ├── Changunarayan_NDVI_Project.atbx
+│   ├── Winter_NDVI_2025.png.png
+│   ├── PreMonsoon_NDVI_2025.png.png
+│   ├── Monsoon_NDVI_2025.png.png
+│   └── PostMonsoon_NDVI_2025.png.png
+│
 ├── Scripts/
-│   ├── EarthEngine_NDVI_Analysis.js
-│   └── Changunarayan_NDVI_Analysis.ipynb
+│   ├── Changunarayan_NDVI_Analysis.ipynb
+│   └── EarthEngine_NDVI_Analysis.js
+│
 └── README.md
 Skills Demonstrated
 Sentinel-2 imagery processing
@@ -84,4 +121,8 @@ Nisha Karki
 
 B.Sc. Horticulture
 
-Research Interests: Precision Agriculture, Remote Sensing, GIS, Plant Phenotyping
+Research Interests
+Precision Agriculture
+Remote Sensing
+Geographic Information Systems (GIS)
+Plant Phenotyping
